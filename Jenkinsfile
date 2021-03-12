@@ -11,7 +11,7 @@ pipeline{
                   git 'https://github.com/devops-trainer/game-of-life.git'
               }
           }
-          stage('Compile'){
+          stage('Compile1'){
               agent any
               steps{
                   sh 'mvn compile'
