@@ -5,7 +5,7 @@ pipeline{
     }
     agent none
       stages{
-          stage('Checkout'){
+          stage('Checkoutt'){
               agent any
               steps{
                   git 'https://github.com/devops-trainer/game-of-life.git'
