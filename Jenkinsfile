@@ -29,7 +29,7 @@ pipeline{
                   }
               }
           }
-          stage('Package'){
+          stage('Packagee'){
               agent any
               steps{
                   sh 'mvn package'
