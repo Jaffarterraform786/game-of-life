@@ -5,13 +5,13 @@ pipeline{
     }
     agent none
       stages{
-          stage('Checkouttt'){
+          stage('Checkout'){
               agent any
               steps{
                   git 'https://github.com/devops-trainer/game-of-life.git'
               }
           }
-          stage('Compile'){
+          stage('Compilee'){
               agent any
               steps{
                   sh 'mvn compile'
